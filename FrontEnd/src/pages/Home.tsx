@@ -17,14 +17,7 @@ export default function Home() {
         <Navbar1 />
 
         {/* Centered Buttons */}
-        <div className="flex flex-col items-center justify-center flex-grow space-y-4">
-          <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition">
-            Button 1
-          </button>
-          <button className="px-6 py-3 bg-green-600 text-white rounded-lg shadow-lg hover:bg-green-700 transition">
-            Button 2
-          </button>
-        </div>
+       
       </div>
     </div>
   );

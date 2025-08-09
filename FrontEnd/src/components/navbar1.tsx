@@ -56,7 +56,8 @@ const Navbar1 = ({
     url: "https://www.shadcnblocks.com",
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
     alt: "logo",
-    title: "ReaMore",
+    title: "ReadMore",
+   
   },
   menu = [
     
@@ -143,20 +144,20 @@ const Navbar1 = ({
             <a href='http://localhost:5173/#' className="flex items-center gap-2 ml-5">
               <img
                 src={logo.src}
-                className="max-h-8 dark:invert"
+                className="max-h-8 dark:invert "
                 alt={logo.alt} 
                 
               />
-              <span className="text-lg font-semibold tracking-tighter">
+              <span className="text-lg font-semibold tracking-tighter  text-blue-50 font-open-sans">
                 {logo.title}
               </span>
             </a>
             <div className="flex items-center">
-              <NavigationMenu>
-                <NavigationMenuList>
-                  {menu.map((item) => renderMenuItem(item))}
-                </NavigationMenuList>
-              </NavigationMenu>
+             <a href="http://localhost:5173/myBooks" className="flex items-center gap-2 ml-5 font-mono font-semibold">MyBooks</a>
+             <a href="#" className="flex items-center gap-2 ml-5 font-semibold font-mono">ToRead</a>
+             <a href="#" className="flex items-center gap-2 ml-5 font-semibold font-mono">Free Resources</a>
+             <a href="#" className="flex items-center gap-2 ml-5 font-semibold font-mono">LeaderBoard</a>
+             <a href="#" className="flex items-center gap-2 ml-5 font-semibold font-mono">Communitites</a>
             </div>
           </div>
           <div className="flex gap-2 mr-10">
